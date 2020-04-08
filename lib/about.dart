@@ -20,7 +20,7 @@ class _AboutPageState extends State<AboutPage> {
       appBar: AppBar(
         title: Text(Strings.title),
       ),
-      body: Center(
+      body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[

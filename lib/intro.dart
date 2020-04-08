@@ -20,7 +20,7 @@ class _IntroPageState extends State<IntroPage> {
       appBar: AppBar(
         title: Text(Strings.title),
       ),
-      body: Center(
+      body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
